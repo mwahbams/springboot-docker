@@ -1,7 +1,7 @@
 # For Java 8, try this
 
 FROM openjdk:8-jdk-alpine
-ADD target/springboot-docker-0.0.1.jar springboot-docker.jar
+ADD target/springboot-docker-0.0.1-SNAPSHOT.jar springboot-docker.jar
 VOLUME /temp
 
 EXPOSE 8089
